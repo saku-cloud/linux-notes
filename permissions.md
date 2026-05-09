@@ -10,11 +10,11 @@ Directories: Allows listing the files within the directory using commands like l
 Files: Allows modifying or overwriting the file contents.
 Directories: Allows creating, deleting, or renaming files within that directory.
 
-##Execute (x)
+## Execute (x)
 Files: Allows running the file as a program or script.
 Directories: Allows "entering" or traversing the directory using the cd command.
 
-## 2. User Categories
+# 2. User Categories
 Permissions are assigned to three distinct levels of ownership:
 
 ## Owner (u)
@@ -32,7 +32,7 @@ When set on an executable, it runs with the privileges of the file's owner rathe
 ## SGID (Set Group ID) 
 On a directory, files created inside inherit the directory’s group ID instead of the creator's primary group.
 
-##Sticky Bit (t)
+## Sticky Bit (t)
  Typically applied to shared directories (like /tmp) to ensure only a file's owner or the directory's owner can delete or rename it.
 
 # 4. Numeric Representation (Octal)
