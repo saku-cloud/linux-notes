@@ -53,5 +53,6 @@ Changes the owner and/or group of a file.
 ## chgrp 
 Changes only the group ownership.
 
-## ls -l: Displays the current permissions of files in a long listing format.
+## ls -l 
+Displays the current permissions of files in a long listing format.
 
