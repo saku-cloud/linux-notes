@@ -56,3 +56,23 @@ Changes only the group ownership.
 ## ls -l 
 Displays the current permissions of files in a long listing format.
 
+# 6. Common Examples
+
+## chmod 755 file.sh
+Owner: read, write, execute  
+Group: read, execute  
+Others: read, execute
+
+## chmod 777 file.sh
+Everyone gets full permissions (not recommended for security).
+
+## chmod +x script.sh
+Makes a script executable.
+
+# EXAMPLE 
+-rwxr-xr-x
+rwx = owner
+r-x = group
+r-x = others
+in numeric 
+755.
